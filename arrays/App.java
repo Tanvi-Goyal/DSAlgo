@@ -42,6 +42,17 @@ public class App {
 		
 		DuplicateZeroes duplicateZeroes = new DuplicateZeroes();
 		duplicateZeroes.duplicateZeros(new int[] {1,0,2,3,0,4,5,0});
+		
+		MergeSortedArray mergeSortedArray = new MergeSortedArray();
+		mergeSortedArray.merge(new int[] {1,2,3,0,0,0}, 3, new int[] {2,5,6}, 3);
+		
+		RemoveElement removeElement = new RemoveElement();
+		System.out.println(removeElement.removeElement(new int[] {3,2,2,3}, 3));
+		
+		CheckIfNandDoubleExist CheckIfNandDoubleExist = new CheckIfNandDoubleExist();
+		System.out.println(CheckIfNandDoubleExist.checkIfExist(new int[] {10,2,5,3}));
+		
+		
 	}
 
 }
