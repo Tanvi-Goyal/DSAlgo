@@ -97,6 +97,9 @@ public class App {
 		ContainsDuplicate containsDuplicate = new ContainsDuplicate();
 		System.out.println(containsDuplicate.containsDuplicate(new int[] {1,1,1,3,3,4,3,2,4,2}));
 		
+		ContainsDuplicateII ContainsDuplicateII = new ContainsDuplicateII();
+		System.out.println(ContainsDuplicateII.containsNearbyDuplicate(new int[] {1,0,6,1}, 1));
+		
 	}
 
 }
