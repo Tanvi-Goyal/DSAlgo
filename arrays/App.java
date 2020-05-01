@@ -49,10 +49,17 @@ public class App {
 		RemoveElement removeElement = new RemoveElement();
 		System.out.println(removeElement.removeElement(new int[] {3,2,2,3}, 3));
 		
-		CheckIfNandDoubleExist CheckIfNandDoubleExist = new CheckIfNandDoubleExist();
-		System.out.println(CheckIfNandDoubleExist.checkIfExist(new int[] {10,2,5,3}));
+		CheckIfNandDoubleExist checkIfNandDoubleExist = new CheckIfNandDoubleExist();
+		System.out.println(checkIfNandDoubleExist.checkIfExist(new int[] {10,2,5,3}));
 		
+		ValidMountainArray validMountainArray = new ValidMountainArray();
+		System.out.println(validMountainArray.validMountainArray(new int[] {3,5,5}));
 		
+		ReplaceWGreatestOnRight replaceWGreatestOnRight = new ReplaceWGreatestOnRight();
+		System.out.println(replaceWGreatestOnRight.replaceElements(new int[] {17,18,5,4,6,1}));
+		
+		SortArrayByParity sortArrayByParity = new SortArrayByParity();
+		System.out.println(sortArrayByParity.sortArrayByParity(new int[] {3,1,2,4}));
 	}
 
 }
