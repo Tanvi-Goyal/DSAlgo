@@ -1,6 +1,6 @@
 package arrays;
 
-public class MainClass {
+public class App {
 
 	public static void main(String[] args) {
 		
@@ -34,7 +34,14 @@ public class MainClass {
 		MaxConsecutiveOnes maxConsecutiveOnes = new MaxConsecutiveOnes();
 		System.out.println(maxConsecutiveOnes.findMaxConsecutiveOnes(new int[] {1,1,0,1,1,1}));
 		
+		FindNumWEvenNOfDigits findNumWEvenNOfDigits = new FindNumWEvenNOfDigits();
+		System.out.println(findNumWEvenNOfDigits.findNumbers(new int[] {12,345,2,6,7896}));
 		
+		SquaresOfSortedArray squaresOfSortedArray = new SquaresOfSortedArray();
+		System.out.println(squaresOfSortedArray.sortedSquares(new int[] {-4,-1,0,3,10}));
+		
+		DuplicateZeroes duplicateZeroes = new DuplicateZeroes();
+		duplicateZeroes.duplicateZeros(new int[] {1,0,2,3,0,4,5,0});
 	}
 
 }

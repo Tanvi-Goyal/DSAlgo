@@ -2,6 +2,10 @@ package arrays;
 
 public class PalindromeNumber {
 
+	/*
+	 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+	 */
+	
 	public boolean isPalindrome(int x) {
         int originalNum = x;
         int revNum = 0;
