@@ -78,6 +78,18 @@ public class App {
 		
 		PasCalTraingle pasCalTraingle = new PasCalTraingle();
 		System.out.println(pasCalTraingle.generate(5));
+		
+		PascalTraingleII pascalTraingleII = new PascalTraingleII();
+		System.out.println(pascalTraingleII.getRow(3));
+		
+		BuySellStock buySellStock = new BuySellStock();
+		System.out.println(buySellStock.maxProfit(new int[] {7,1,5,3,6,4}));
+		
+		TwoSumII twoSumII = new TwoSumII();
+		System.out.println(twoSumII.twoSum(new int[] {2,7,11,15}, 9));
+		
+		MajorityElement majorityElement = new MajorityElement();
+		System.out.println(majorityElement.majorityElement(new int[] {2,2,1,1,1,2,2}));
 	}
 
 }
