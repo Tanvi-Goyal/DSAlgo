@@ -69,6 +69,15 @@ public class App {
 		
 		FindDisappearedNumbers findDisappearedNumbers = new FindDisappearedNumbers();
 		System.out.println(findDisappearedNumbers.findDisappearedNumbers(new int[] {4,3,2,7,8,2,3,1}));
+		
+		SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+		System.out.println(searchInsertPosition.searchInsert(new int[] {1,3,5,6}, 7));
+		
+		PlusOne plusOne = new PlusOne();
+		System.out.println(plusOne.plusOne(new int[] {4,3,2,1}));
+		
+		PasCalTraingle pasCalTraingle = new PasCalTraingle();
+		System.out.println(pasCalTraingle.generate(5));
 	}
 
 }
