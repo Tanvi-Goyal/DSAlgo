@@ -60,6 +60,15 @@ public class App {
 		
 		SortArrayByParity sortArrayByParity = new SortArrayByParity();
 		System.out.println(sortArrayByParity.sortArrayByParity(new int[] {3,1,2,4}));
+		
+		HeightChecker heightChecker = new HeightChecker();
+		System.out.println(heightChecker.heightChecker(new int[] {1,1,4,2,1,3}));
+		
+		ThirdMaxNumber thirdMaxNumber = new ThirdMaxNumber();
+		System.out.println(thirdMaxNumber.thirdMax(new int[] {2, 2, 3, 1}));
+		
+		FindDisappearedNumbers findDisappearedNumbers = new FindDisappearedNumbers();
+		System.out.println(findDisappearedNumbers.findDisappearedNumbers(new int[] {4,3,2,7,8,2,3,1}));
 	}
 
 }
