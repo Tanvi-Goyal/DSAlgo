@@ -90,6 +90,7 @@ public class App {
 		
 		MajorityElement majorityElement = new MajorityElement();
 		System.out.println(majorityElement.majorityElement(new int[] {2,2,1,1,1,2,2}));
+		
 	}
 
 }
