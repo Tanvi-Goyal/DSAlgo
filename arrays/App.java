@@ -100,6 +100,9 @@ public class App {
 		ContainsDuplicateII ContainsDuplicateII = new ContainsDuplicateII();
 		System.out.println(ContainsDuplicateII.containsNearbyDuplicate(new int[] {1,0,1,1}, 1));
 		
+		FibonnaciNumber fibonnaciNumber = new FibonnaciNumber();
+		System.out.println(fibonnaciNumber.fib(3));
+		
 	}
 
 }
