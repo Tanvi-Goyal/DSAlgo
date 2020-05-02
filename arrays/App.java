@@ -103,6 +103,9 @@ public class App {
 		FibonnaciNumber fibonnaciNumber = new FibonnaciNumber();
 		System.out.println(fibonnaciNumber.fib(3));
 		
+		ClimbingStairs climbingStairs = new ClimbingStairs();
+		System.out.println(climbingStairs.climbStairs(4));
+		
 	}
 
 }
