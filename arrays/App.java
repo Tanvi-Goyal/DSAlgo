@@ -109,6 +109,9 @@ public class App {
 		MostWater mostWater = new MostWater();
 		System.out.println(mostWater.maxArea(new int[] {3,9,3,4,7,2,12,6}));
 		
+		ThreeSum threeSum = new ThreeSum();
+		threeSum.threeSum(new int[] {-1, 0 , 1, 2, -1, -4});
+		
 	}
 
 }
