@@ -106,6 +106,9 @@ public class App {
 		ClimbingStairs climbingStairs = new ClimbingStairs();
 		System.out.println(climbingStairs.climbStairs(4));
 		
+		MostWater mostWater = new MostWater();
+		System.out.println(mostWater.maxArea(new int[] {3,9,3,4,7,2,12,6}));
+		
 	}
 
 }
