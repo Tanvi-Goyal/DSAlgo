@@ -112,6 +112,9 @@ public class App {
 		ThreeSum threeSum = new ThreeSum();
 		threeSum.threeSum(new int[] {-1, 0 , 1, 2, -1, -4});
 		
+		ThreeSumClosest threeSumClosest = new ThreeSumClosest();
+		System.out.println(threeSumClosest.threeSumClosest(new int[] {-1, 2, 1, -4}, 1));
+		
 	}
 
 }
