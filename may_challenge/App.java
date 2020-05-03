@@ -7,6 +7,9 @@ public class App {
 
 		JewelsAndStones jewelsAndStones = new JewelsAndStones();
 		System.out.println(jewelsAndStones.numJewelsInStones("aA", "aAABBBBBB"));
+		
+		RansomNote ransomNote = new RansomNote();
+		System.out.println(ransomNote.canConstruct("aa","abb"));
 	}
 
 }
