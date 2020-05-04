@@ -14,6 +14,10 @@ public class App {
 		// Day 3
 		RansomNote ransomNote = new RansomNote();
 		System.out.println(ransomNote.canConstruct("aa","abb"));
+		
+		// Day 4
+		NumberComplement numberComplement = new NumberComplement();
+		System.out.println(numberComplement.findComplement(5));
 	}
 
 }
