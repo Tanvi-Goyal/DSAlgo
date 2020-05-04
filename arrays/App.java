@@ -115,6 +115,9 @@ public class App {
 		ThreeSumClosest threeSumClosest = new ThreeSumClosest();
 		System.out.println(threeSumClosest.threeSumClosest(new int[] {-1, 2, 1, -4}, 1));
 		
+		KSum kSum = new KSum();
+		System.out.println(kSum.fourSum(new int[] {1, 0, -1, 0, -2, 2}, 0));
+		
 	}
 
 }
