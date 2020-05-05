@@ -18,6 +18,10 @@ public class App {
 		// Day 4
 		NumberComplement numberComplement = new NumberComplement();
 		System.out.println(numberComplement.findComplement(5));
+		
+		// Day 5
+		FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter();
+		System.out.println(firstUniqueCharacter.firstUniqChar("leetcode"));
 	}
 
 }
