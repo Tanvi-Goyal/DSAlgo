@@ -1,5 +1,7 @@
 package may_challenge;
 
+import arrays.MajorityElement;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -22,6 +24,9 @@ public class App {
 		// Day 5
 		FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter();
 		System.out.println(firstUniqueCharacter.firstUniqChar("leetcode"));
+		
+		// Day 6
+		MajorityElement majorityElement = new MajorityElement();
+		System.out.println(majorityElement.majorityElement(new int[] {2,2,1,1,1,2,2}));
 	}
-
 }
