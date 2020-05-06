@@ -118,6 +118,9 @@ public class App {
 		KSum kSum = new KSum();
 		System.out.println(kSum.fourSum(new int[] {1, 0, -1, 0, -2, 2}, 0));
 		
+		ArrayNesting arrayNesting = new ArrayNesting();
+		System.out.println(arrayNesting.arrayNesting(new int[] {5,4,0,3,1,6,2}));
+		
 	}
 
 }
