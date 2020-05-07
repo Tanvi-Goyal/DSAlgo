@@ -28,5 +28,7 @@ public class App {
 		// Day 6
 		MajorityElement majorityElement = new MajorityElement();
 		System.out.println(majorityElement.majorityElement(new int[] {2,2,1,1,1,2,2}));
+		
+		CousinsOfBT CousinsOfBT = new CousinsOfBT();
 	}
 }

@@ -121,6 +121,9 @@ public class App {
 		ArrayNesting arrayNesting = new ArrayNesting();
 		System.out.println(arrayNesting.arrayNesting(new int[] {5,4,0,3,1,6,2}));
 		
+		KDiff kDiff = new KDiff();
+		System.out.println(kDiff.findPairs(new int[] {3,1,4,1,5}, 2));
+		
 	}
 
 }
