@@ -124,6 +124,9 @@ public class App {
 		KDiff kDiff = new KDiff();
 		System.out.println(kDiff.findPairs(new int[] {3,1,4,1,5}, 2));
 		
+		ArrayPairSum1 arrayPairSum1 = new ArrayPairSum1();
+		System.out.println(arrayPairSum1.arrayPairSum(new int[] {1,2,3,4}));
+		
 	}
 
 }
