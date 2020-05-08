@@ -127,6 +127,8 @@ public class App {
 		ArrayPairSum1 arrayPairSum1 = new ArrayPairSum1();
 		System.out.println(arrayPairSum1.arrayPairSum(new int[] {1,2,3,4}));
 		
+		ReshapeMatrix reshapeMatrix = new ReshapeMatrix();
+		
 	}
 
 }
