@@ -29,6 +29,14 @@ public class App {
 		MajorityElement majorityElement = new MajorityElement();
 		System.out.println(majorityElement.majorityElement(new int[] {2,2,1,1,1,2,2}));
 		
+		// Day 7
 		CousinsOfBT CousinsOfBT = new CousinsOfBT();
+		
+		// Day 8
+		CheckIfStraightLine checkIfStraightLine = new CheckIfStraightLine();
+		System.out.println(checkIfStraightLine.checkStraightLine(new int[][] {
+			new int[] {1,1}, new int[] {2,2}, new int[] {3,4}, new int[] {4,5}, new int[] {5,6}, new int[] {7,7}
+		}));
+		
 	}
 }
