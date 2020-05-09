@@ -129,6 +129,9 @@ public class App {
 		
 		ReshapeMatrix reshapeMatrix = new ReshapeMatrix();
 		
+		UnsortedSubarray unsortedSubarray = new UnsortedSubarray();
+		System.out.println(unsortedSubarray.findUnsortedSubarray(new int[] {2, 6, 4, 8, 10, 9, 15}));
+		
 	}
 
 }
