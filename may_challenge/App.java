@@ -38,5 +38,8 @@ public class App {
 			new int[] {1,1}, new int[] {2,2}, new int[] {3,4}, new int[] {4,5}, new int[] {5,6}, new int[] {7,7}
 		}));
 		
+		// Day 9
+		ValidPerfectSquare validPerfectSquare = new ValidPerfectSquare();
+		System.out.println(validPerfectSquare.isPerfectSquare(16));
 	}
 }
