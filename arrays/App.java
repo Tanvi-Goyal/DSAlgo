@@ -132,6 +132,9 @@ public class App {
 		UnsortedSubarray unsortedSubarray = new UnsortedSubarray();
 		System.out.println(unsortedSubarray.findUnsortedSubarray(new int[] {2, 6, 4, 8, 10, 9, 15}));
 		
+		CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
+		System.out.println(canPlaceFlowers.canPlaceFlowers(new int[] {1,0,0,0,1}, 1));
+		
 	}
 
 }
