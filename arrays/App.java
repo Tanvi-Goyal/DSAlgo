@@ -138,6 +138,9 @@ public class App {
 		MaximumProductOfThree maximumProductOfThree = new MaximumProductOfThree();
 		System.out.println(maximumProductOfThree.maximumProduct(new int[] {1,2,3,4}));
 		
+		MaxAvgSubArray maxAvgSubArray = new MaxAvgSubArray();
+		System.out.println(maxAvgSubArray.findMaxAverage(new int[] {1,12,-5,-6,50,3}, 4));
+		
 	}
 
 }
