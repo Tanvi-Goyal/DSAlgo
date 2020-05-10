@@ -41,5 +41,11 @@ public class App {
 		// Day 9
 		ValidPerfectSquare validPerfectSquare = new ValidPerfectSquare();
 		System.out.println(validPerfectSquare.isPerfectSquare(16));
+		
+		// Day 10
+		FindTownJudge findTownJudge = new FindTownJudge();
+		System.out.println(findTownJudge.findJudge(4, new int[][] {
+			new int[] {1,3}, new int[] {1,4}, new int[] {2,3}, new int[] {2,4}, new int[] {4,3}
+		}));
 	}
 }
