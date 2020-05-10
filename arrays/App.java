@@ -135,6 +135,9 @@ public class App {
 		CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
 		System.out.println(canPlaceFlowers.canPlaceFlowers(new int[] {1,0,0,0,1}, 1));
 		
+		MaximumProductOfThree maximumProductOfThree = new MaximumProductOfThree();
+		System.out.println(maximumProductOfThree.maximumProduct(new int[] {1,2,3,4}));
+		
 	}
 
 }
