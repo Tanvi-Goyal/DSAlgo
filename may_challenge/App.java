@@ -47,5 +47,11 @@ public class App {
 		System.out.println(findTownJudge.findJudge(4, new int[][] {
 			new int[] {1,3}, new int[] {1,4}, new int[] {2,3}, new int[] {2,4}, new int[] {4,3}
 		}));
+		
+		// Day 11
+		FloodFill floodFill = new FloodFill();
+		floodFill.floodFill(new int[][] {
+			new int[] {1,1,1}, new int[] {1,1,0}, new int[] {1,0,1}
+		}, 1, 1, 2);
 	}
 }
