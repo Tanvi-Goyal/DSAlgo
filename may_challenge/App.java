@@ -1,6 +1,7 @@
 package may_challenge;
 
 import arrays.MajorityElement;
+import arrays.SingleNumber;
 
 public class App {
 
@@ -53,5 +54,9 @@ public class App {
 		floodFill.floodFill(new int[][] {
 			new int[] {1,1,1}, new int[] {1,1,0}, new int[] {1,0,1}
 		}, 1, 1, 2);
+		
+		// Day 12
+		SingleNumber singleNum = new SingleNumber();
+		System.out.println(singleNum.singleNumber(new int[] {4,1,2,1,2}));
 	}
 }
