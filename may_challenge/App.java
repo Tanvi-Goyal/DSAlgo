@@ -58,5 +58,9 @@ public class App {
 		// Day 12
 		SingleNumber singleNum = new SingleNumber();
 		System.out.println(singleNum.singleNumber(new int[] {4,1,2,1,2}));
+		
+		// Day 13
+		RemoveKDigits removeKDigits = new RemoveKDigits();
+		System.out.println(removeKDigits.removeKdigits("1432219", 3));
 	}
 }
