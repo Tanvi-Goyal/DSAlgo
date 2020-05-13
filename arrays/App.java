@@ -141,6 +141,11 @@ public class App {
 		MaxAvgSubArray maxAvgSubArray = new MaxAvgSubArray();
 		System.out.println(maxAvgSubArray.findMaxAverage(new int[] {1,12,-5,-6,50,3}, 4));
 		
+		ToeplitzMatrix ToeplitzMatrix = new ToeplitzMatrix();
+		System.out.println(ToeplitzMatrix.isToeplitzMatrix(new int[][] {
+			new int[] {1,2,3,4}, new int[] {5,1,2,3}, new int[] {9,5,1,2}
+		}));
+		
 	}
 
 }
