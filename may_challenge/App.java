@@ -62,5 +62,11 @@ public class App {
 		// Day 13
 		RemoveKDigits removeKDigits = new RemoveKDigits();
 		System.out.println(removeKDigits.removeKdigits("1432219", 3));
+		
+		// Day 14
+		Trie obj = new Trie();
+		obj.insert("apple");
+		System.out.println(obj.search("apple"));
+		System.out.println(obj.startsWith("aps"));
 	}
 }
