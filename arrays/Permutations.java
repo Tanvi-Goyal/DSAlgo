@@ -5,6 +5,10 @@ import java.util.List;
 
 public class Permutations {
 
+	/*
+	 Given a collection of distinct integers, return all possible permutations.
+	 */
+	
 	 public List<List<Integer>> permute(int[] nums) {
 	        
 	        if(nums.length == 0) {
@@ -22,6 +26,7 @@ public class Permutations {
 	        
 	        List<List<Integer>> subRes = permute(subArray);
 	        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+	        
 	        for(int i=0; i < subRes.size();i++) {
 	        	
 	            List<Integer> permutation = subRes.get(i);     
@@ -31,17 +36,12 @@ public class Permutations {
 		            newList.addAll(permutation);
 		            newList.add(j, currentVal);
 	            	ans.add(newList);
-//					ans[k] = smallAns[i].substring(0,j) + input.charAt(0) + smallAns[i].substring(j);
-//					k++;
 				}
 	            
 	            List<Integer> newList = new ArrayList<Integer>();     
 	            newList.addAll(permutation);
 	            newList.add(currentVal);
             	ans.add(newList);
-            	
-//				ans[k] = smallAns[i] + input.charAt(0);
-//				k++;
 	            
 	        }
 	        
