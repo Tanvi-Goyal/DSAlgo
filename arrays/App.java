@@ -146,6 +146,8 @@ public class App {
 			new int[] {1,2,3,4}, new int[] {5,1,2,3}, new int[] {9,5,1,2}
 		}));
 		
+		NextGreaterPermutation nextGreaterPermutation = new NextGreaterPermutation();
+		
 	}
 
 }
