@@ -157,6 +157,9 @@ public class App {
 		MinInRotatedArray minInRotatedArray = new MinInRotatedArray();
 		System.out.println(minInRotatedArray.findMin(new int[] {4,5,6,7,0,1,2}));
 		
+		SearchInRotatedArrayII searchInRotatedArrayII = new SearchInRotatedArrayII();
+		System.out.println(searchInRotatedArrayII.search(new int[] {4,5,6,7,0,1,2}, 0));
+		
 	}
 
 }
