@@ -35,7 +35,7 @@ public class Permutations {
 		            List<Integer> newList = new ArrayList<Integer>();     
 		            newList.addAll(permutation);
 		            newList.add(j, currentVal);
-	            	ans.add(newList);
+	            	ans .add(newList);
 				}
 	            
 	            List<Integer> newList = new ArrayList<Integer>();     

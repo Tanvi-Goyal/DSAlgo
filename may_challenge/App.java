@@ -72,5 +72,10 @@ public class App {
 		// Day 15
 		MaxCircularSubArray maxCircularSubArray = new MaxCircularSubArray();
 		System.out.println(maxCircularSubArray.maxSubarraySumCircular(new int[] {3,-1,2,-1}));
+		
+		// Day 16
+		OddEvenLinkedList oddEvenLinkedList = new OddEvenLinkedList();
+		System.out.println(oddEvenLinkedList.oddEvenList(
+				new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4,new ListNode(5)))))));
 	}
 }
