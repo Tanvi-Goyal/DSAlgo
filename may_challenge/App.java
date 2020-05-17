@@ -77,5 +77,9 @@ public class App {
 		OddEvenLinkedList oddEvenLinkedList = new OddEvenLinkedList();
 		System.out.println(oddEvenLinkedList.oddEvenList(
 				new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4,new ListNode(5)))))));
+		
+		// Day 17
+		FindAnagrams findAnagrams = new FindAnagrams();
+		System.out.println(findAnagrams.findAnagrams( "cbaebabacd", "abc"));
 	}
 }
