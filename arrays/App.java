@@ -163,6 +163,8 @@ public class App {
 		ValidAnagrams validAnagrams = new ValidAnagrams();
 		System.out.println(validAnagrams.isAnagram("anagram", "nagaram"));
 		
+		GroupAnagrams groupAnagrams = new GroupAnagrams();
+		System.out.println(groupAnagrams.groupAnagrams(new String[] {"eat", "tea", "tan", "ate", "nat", "bat"}));
 	}
 
 }
