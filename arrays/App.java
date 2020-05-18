@@ -160,6 +160,9 @@ public class App {
 		SearchInRotatedArrayII searchInRotatedArrayII = new SearchInRotatedArrayII();
 		System.out.println(searchInRotatedArrayII.search(new int[] {4,5,6,7,0,1,2}, 0));
 		
+		ValidAnagrams validAnagrams = new ValidAnagrams();
+		System.out.println(validAnagrams.isAnagram("anagram", "nagaram"));
+		
 	}
 
 }
