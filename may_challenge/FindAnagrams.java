@@ -1,44 +1,51 @@
 package may_challenge;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FindAnagrams {
 
+	/*
+	 Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+	 Strings consists of lowercase English letters only and the length of both strings s and p 
+	 will not be larger than 20,100.
+
+	 The order of output does not matter.
+	 */
+	
 	 public List<Integer> findAnagrams(String s, String p) {
 		 
-		 ArrayList<Integer> soln = new ArrayList<Integer>();
-	       if (s.length() == 0 || p.length() == 0 || s.length() < p.length()){
-	           return new ArrayList<Integer>();
-	       }
-	      
-	       int[] chars = new int[26];
-	       for (Character c : p.toCharArray()) chars[c-'a']++;
-	       
-	       int start = 0, end = 0, len = p.length(), diff = len;
-	       char temp;
+		 List<Integer> result = new ArrayList<Integer>();
+	        int lenText = s.length();
+	        int lenPattern = p.length();
 	        
-	       for (end = 0; end < len; end++){
-	           temp = s.charAt(end);
-	           chars[temp-'a']--;
-	           if (chars[temp-'a'] >= 0) diff--;
-	       }
-	       
-	       if (diff == 0) soln.add(0);
-	       
-	       while (end < s.length()){
-	          
-	           temp = s.charAt(start);
-	           if (chars[temp-'a'] >= 0) diff++;
-	           chars[temp-'a']++;
-	           start++;
-	           temp = s.charAt(end);
-	           chars[temp-'a']--;
-	           if (chars[temp-'a'] >= 0) diff--;
-	           if (diff == 0) soln.add(start);
-	           end++;
-	       }
-	       
-	       return soln;
+	        if(lenPattern > lenText) return new ArrayList<Integer>();
+	        
+	        int[] frequency = new int[26];
+	        
+	        for(int i=0;i < lenPattern; i++) {
+	            frequency[p.charAt(i) - 'a']++;
+	            frequency[s.charAt(i) - 'a']--;
+	        }
+	        
+	        if(allZero(frequency)) result.add(0);
+	        
+	        for (int i = lenPattern; i < lenText; i++) {
+	            frequency[s.charAt(i) - 'a']--;
+	            frequency[s.charAt(i - lenPattern) - 'a']++;
+	            if (allZero(frequency)) result.add( i - lenPattern + 1);
+	        }
+	        
+	        return result;
+	      
 	 }
+	 
+	 private boolean allZero(int[] frequency) {
+	        for (int i = 0; i < 26; i++) {
+	            if (frequency[i] != 0) return false;
+	        }
+	        return true;
+	    }
 }

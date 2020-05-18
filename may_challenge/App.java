@@ -81,5 +81,9 @@ public class App {
 		// Day 17
 		FindAnagrams findAnagrams = new FindAnagrams();
 		System.out.println(findAnagrams.findAnagrams( "cbaebabacd", "abc"));
+		
+		// Day 18
+		PermutationInString permutationInString = new PermutationInString();
+		System.out.println(permutationInString.checkInclusion("ab", "eidbaooo"));
 	}
 }
