@@ -165,6 +165,9 @@ public class App {
 		
 		GroupAnagrams groupAnagrams = new GroupAnagrams();
 		System.out.println(groupAnagrams.groupAnagrams(new String[] {"eat", "tea", "tan", "ate", "nat", "bat"}));
+		
+		Subsets Subsets = new Subsets();
+		System.out.println(Subsets.subsets(new int[] {1,2,3}));
 	}
 
 }
