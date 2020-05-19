@@ -85,5 +85,10 @@ public class App {
 		// Day 18
 		PermutationInString permutationInString = new PermutationInString();
 		System.out.println(permutationInString.checkInclusion("ab", "eidbaooo"));
+		
+		// Day 19
+	
+		StockSpanner stockSpanner = new StockSpanner();
+		int param_1 = stockSpanner.next(75);
 	}
 }
