@@ -87,8 +87,19 @@ public class App {
 		System.out.println(permutationInString.checkInclusion("ab", "eidbaooo"));
 		
 		// Day 19
-	
 		StockSpanner stockSpanner = new StockSpanner();
 		int param_1 = stockSpanner.next(75);
+		
+		// Day 20
+		KthSmallestOfBST KthSmallestOfBST = new KthSmallestOfBST();
+		System.out.println(KthSmallestOfBST.kthSmallest(
+				new TreeNode(3,
+						new TreeNode(1, null, new TreeNode(2)),
+						new TreeNode(4)
+						), 1
+				));
+				
 	}
+
+	
 }
