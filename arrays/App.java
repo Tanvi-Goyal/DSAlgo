@@ -168,6 +168,9 @@ public class App {
 		
 		Subsets Subsets = new Subsets();
 		System.out.println(Subsets.subsets(new int[] {1,2,3}));
+		
+		SubsetsII SubsetsII = new SubsetsII();
+		System.out.println(SubsetsII.subsets(new int[] {1,2,2}));
 	}
 
 }
