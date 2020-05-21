@@ -177,6 +177,9 @@ public class App {
 		
 		CombinationSumII CombinationSumII = new CombinationSumII();
 		System.out.println(CombinationSumII.combinationSum2(new int[] {10,1,2,7,6,1,5}, 8));
+		
+		AllDuplicates allDuplicates = new AllDuplicates();
+		System.out.println(allDuplicates.findDuplicates(new int[] {4,3,2,7,8,2,3,1}));
 	}
 
 }
