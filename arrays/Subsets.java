@@ -6,6 +6,11 @@ import java.util.List;
 
 public class Subsets {
 
+	/*
+	 Given a set of distinct integers, nums, return all possible subsets (the power set).
+
+	 Note: The solution set must not contain duplicate subsets.
+	 */
 	
 	public List<List<Integer>> subsets(int[] nums) {
 	    List<List<Integer>> list = new ArrayList<>();
