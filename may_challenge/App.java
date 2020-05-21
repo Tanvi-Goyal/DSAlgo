@@ -98,6 +98,12 @@ public class App {
 						new TreeNode(4)
 						), 1
 				));
+		
+		// Day 21
+		CountSquareSubMatrices countSquareSubMatrices = new CountSquareSubMatrices();
+		System.out.println(countSquareSubMatrices.countSquares(new int[][] {
+			new int[] {1,1,1}, new int[] {1,1,0}, new int[] {1,0,1}
+		}));
 				
 	}
 
