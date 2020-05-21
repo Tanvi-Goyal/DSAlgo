@@ -171,6 +171,9 @@ public class App {
 		
 		SubsetsII SubsetsII = new SubsetsII();
 		System.out.println(SubsetsII.subsets(new int[] {1,2,2}));
+		
+		CombinationSumII CombinationSumII = new CombinationSumII();
+		System.out.println(CombinationSumII.combinationSum2(new int[] {10,1,2,7,6,1,5}, 8));
 	}
 
 }
