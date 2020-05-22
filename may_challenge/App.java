@@ -104,6 +104,10 @@ public class App {
 		System.out.println(countSquareSubMatrices.countSquares(new int[][] {
 			new int[] {1,1,1}, new int[] {1,1,0}, new int[] {1,0,1}
 		}));
+		
+		// Day 22
+		SortByFrequency SortByFrequency = new SortByFrequency();
+		System.out.println(SortByFrequency.frequencySort("eEttzsasdscssasaxaxadaaxadww"));
 				
 	}
 
