@@ -180,6 +180,10 @@ public class App {
 		
 		AllDuplicates allDuplicates = new AllDuplicates();
 		System.out.println(allDuplicates.findDuplicates(new int[] {4,3,2,7,8,2,3,1}));
+		
+		FaLPosOfElement faLPosOfElement = new FaLPosOfElement();
+		int[] res = faLPosOfElement.searchRange(new int[] {5,7,7,8,8,10}, 8);
+		System.out.println(res[0] + " " + res[1]);
 	}
 
 }
