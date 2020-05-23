@@ -149,7 +149,7 @@ public class App {
 		NextGreaterPermutation nextGreaterPermutation = new NextGreaterPermutation();
 		
 		Permutations permutations = new Permutations();
-		System.out.println(permutations.permute(new int[] {1,2,3,4}));
+		System.out.println(permutations.permute(new int[] {1,2,3}));
 		
 		SearchInRotatedArray searchInRotatedArray = new SearchInRotatedArray();
 		System.out.println(searchInRotatedArray.search(new int[] {4,5,6,7,0,1,2}, 0));
@@ -184,6 +184,9 @@ public class App {
 		FaLPosOfElement faLPosOfElement = new FaLPosOfElement();
 		int[] res = faLPosOfElement.searchRange(new int[] {5,7,7,8,8,10}, 8);
 		System.out.println(res[0] + " " + res[1]);
+		
+		PermutationsII permutationsII = new PermutationsII();
+		System.out.println(permutationsII.permuteUnique(new int[] {1,1,2}));
 	}
 
 }
