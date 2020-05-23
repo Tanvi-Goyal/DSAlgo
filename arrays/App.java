@@ -187,6 +187,9 @@ public class App {
 		
 		PermutationsII permutationsII = new PermutationsII();
 		System.out.println(permutationsII.permuteUnique(new int[] {1,1,2}));
+		
+		PalindromePartioning palindromePartioning = new PalindromePartioning();
+		System.out.println(palindromePartioning.partition("aab"));
 	}
 
 }
