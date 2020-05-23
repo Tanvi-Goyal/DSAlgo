@@ -116,7 +116,6 @@ public class App {
 			new int[] {1,5}, new int[] {8,12}, new int[] {15,24}, new int[] {25,26}
 		});
 		
-		
 	}
 
 	
