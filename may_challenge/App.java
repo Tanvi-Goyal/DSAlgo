@@ -109,6 +109,14 @@ public class App {
 		SortByFrequency SortByFrequency = new SortByFrequency();
 		System.out.println(SortByFrequency.frequencySort("eEttzsasdscssasaxaxadaaxadww"));
 				
+		IntervalListIntersections intervalListIntersections = new IntervalListIntersections();
+		int[][] res = intervalListIntersections.intervalIntersection( new int[][] {
+			new int[] {0,2}, new int[] {5,10}, new int[] {13,23}, new int[] {24,25}
+		} , new int[][] {
+			new int[] {1,5}, new int[] {8,12}, new int[] {15,24}, new int[] {25,26}
+		});
+		
+		
 	}
 
 	
