@@ -190,6 +190,8 @@ public class App {
 		
 		PalindromePartioning palindromePartioning = new PalindromePartioning();
 		System.out.println(palindromePartioning.partition("aab"));
+		
+		RotateMatrix RotateMatrix = new RotateMatrix();
 	}
 
 }
