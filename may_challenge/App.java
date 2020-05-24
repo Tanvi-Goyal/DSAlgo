@@ -108,13 +108,18 @@ public class App {
 		// Day 22
 		SortByFrequency SortByFrequency = new SortByFrequency();
 		System.out.println(SortByFrequency.frequencySort("eEttzsasdscssasaxaxadaaxadww"));
-				
+			
+		// Day 23
 		IntervalListIntersections intervalListIntersections = new IntervalListIntersections();
 		int[][] res = intervalListIntersections.intervalIntersection( new int[][] {
 			new int[] {0,2}, new int[] {5,10}, new int[] {13,23}, new int[] {24,25}
 		} , new int[][] {
 			new int[] {1,5}, new int[] {8,12}, new int[] {15,24}, new int[] {25,26}
 		});
+		
+		// Day 24
+		BSTFromPreOrder bSTFromPreOrder = new BSTFromPreOrder();
+		System.out.println(bSTFromPreOrder.bstFromPreorder(new int[] {8,5,1,7,10,12}));
 		
 	}
 
