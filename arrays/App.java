@@ -198,11 +198,16 @@ public class App {
 			new int[] {1,2,3,4}, new int[] {5,6,7,8}, new int[] {9,10,11,12}
 		}));
 		
-		MergeIntervals MergeIntervals = new MergeIntervals();
+		MergeIntervals mergeIntervals = new MergeIntervals();
 		
 		NonOverlappingIntervals nonOverlappingIntervals = new NonOverlappingIntervals();
 		System.out.println(nonOverlappingIntervals.eraseOverlapIntervals(new int[][] {
 			new int[] {1,100}, new int[] {11,22}, new int[] {1,11}, new int [] {2,12}
+		}));
+		
+		MinArrowShots minArrowShots = new MinArrowShots();
+		System.out.println(minArrowShots.findMinArrowShots(new int[][] {
+			new int[] {10,16}, new int[] {2,8}, new int[] {1,6}, new int [] {7,12}
 		}));
 	}
 
