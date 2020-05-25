@@ -199,6 +199,11 @@ public class App {
 		}));
 		
 		MergeIntervals MergeIntervals = new MergeIntervals();
+		
+		NonOverlappingIntervals nonOverlappingIntervals = new NonOverlappingIntervals();
+		System.out.println(nonOverlappingIntervals.eraseOverlapIntervals(new int[][] {
+			new int[] {1,100}, new int[] {11,22}, new int[] {1,11}, new int [] {2,12}
+		}));
 	}
 
 }
