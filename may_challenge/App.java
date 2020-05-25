@@ -121,6 +121,9 @@ public class App {
 		BSTFromPreOrder bSTFromPreOrder = new BSTFromPreOrder();
 		System.out.println(bSTFromPreOrder.bstFromPreorder(new int[] {8,5,1,7,10,12}));
 		
+		// Day 25
+		UnCrossedLines unCrossedLines = new UnCrossedLines();
+		System.out.println(unCrossedLines.maxUncrossedLines(new int[] {2,5,1,2,5}, new int[] {10,5,2,1,5,2}));
 	}
 
 	
