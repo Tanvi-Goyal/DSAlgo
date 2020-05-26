@@ -209,6 +209,9 @@ public class App {
 		System.out.println(minArrowShots.findMinArrowShots(new int[][] {
 			new int[] {10,16}, new int[] {2,8}, new int[] {1,6}, new int [] {7,12}
 		}));
+		
+		IntersectionOfArrays IntersectionOfArrays = new IntersectionOfArrays();
+		System.out.println(IntersectionOfArrays.intersect(new int[] {1,2,2,1}, new int[] {2,2}));
 	}
 
 }
