@@ -22,7 +22,7 @@ public class IntersectionOfArrays {
 			map.put(n, map.getOrDefault(n,0) + 1);
 		}
 		
-		for( int n : nums2) {
+		for(int n : nums2) {
 			if(map.containsKey(n) && map.get(n) > 0) {
 				res.add(n);
 				map.put(n, map.getOrDefault(n,0) - 1);

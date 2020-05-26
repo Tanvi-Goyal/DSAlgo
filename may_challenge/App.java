@@ -123,7 +123,12 @@ public class App {
 		
 		// Day 25
 		UnCrossedLines unCrossedLines = new UnCrossedLines();
-		System.out.println(unCrossedLines.maxUncrossedLines(new int[] {2,5,1,2,5}, new int[] {10,5,2,1,5,2}));
+		System.out.println(unCrossedLines.maxUncrossedLines(new int[] {2,5,1,2,5}, 
+				new int[] {10,5,2,1,5,2}));
+		
+		// Day 26
+		ContiguousArray contiguousArray = new ContiguousArray();
+		System.out.println(contiguousArray.findMaxLength(new int[] {0,1,0}));
 	}
 
 	
