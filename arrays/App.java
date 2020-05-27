@@ -228,6 +228,8 @@ public class App {
 		
 		SpiralMatrixII spiralMatrixII = new SpiralMatrixII();
 		
+		UniquePaths uniquePaths = new UniquePaths();
+		System.out.println(uniquePaths.uniquePaths(3, 2));
 	}
 
 }
