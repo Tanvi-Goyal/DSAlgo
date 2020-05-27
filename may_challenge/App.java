@@ -129,6 +129,12 @@ public class App {
 		// Day 26
 		ContiguousArray contiguousArray = new ContiguousArray();
 		System.out.println(contiguousArray.findMaxLength(new int[] {0,1,0}));
+		
+		// Day 27
+		PossibleBipartition possibleBipartition = new PossibleBipartition();
+		System.out.println(possibleBipartition.possibleBipartition(5, new int[][] {
+			new int[] {1,2}, new int[] {2,3}, new int[] {3,4}, new int[] {4,5}, new int[] {1,5}
+		}));
 	}
 
 	
