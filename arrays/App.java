@@ -225,6 +225,9 @@ public class App {
 			new char[] {'.','.','.','4','1','9','.','.','5'},
 			new char[] {'.','.','.','.','8','.','.','7','9'}
 		}));
+		
+		SpiralMatrixII spiralMatrixII = new SpiralMatrixII();
+		
 	}
 
 }
