@@ -135,6 +135,9 @@ public class App {
 		System.out.println(possibleBipartition.possibleBipartition(5, new int[][] {
 			new int[] {1,2}, new int[] {2,3}, new int[] {3,4}, new int[] {4,5}, new int[] {1,5}
 		}));
+		
+		// Day 28
+		CountingBits countingBits = new CountingBits();
 	}
 
 	
