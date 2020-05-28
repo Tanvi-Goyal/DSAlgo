@@ -230,6 +230,11 @@ public class App {
 		
 		UniquePaths uniquePaths = new UniquePaths();
 		System.out.println(uniquePaths.uniquePaths(3, 2));
+		
+		MinPathSum minPathSum = new MinPathSum();
+		System.out.println(minPathSum.minPathSum(new int[][] {
+			new int[] {1,3,1}, new int[] {1,5,1}, new int[] {4,2,1}
+		}));
 	}
 
 }
