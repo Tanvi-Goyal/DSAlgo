@@ -138,6 +138,12 @@ public class App {
 		
 		// Day 28
 		CountingBits countingBits = new CountingBits();
+		
+		// Day 29
+		CourseSchedule courseSchedule = new CourseSchedule();
+		System.out.println(courseSchedule.canFinish(2, new int[][] {
+			new int[] {0,1}, new int[] {1,0}
+		}));
 	}
 
 	
