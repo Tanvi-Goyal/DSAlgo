@@ -144,6 +144,14 @@ public class App {
 		System.out.println(courseSchedule.canFinish(2, new int[][] {
 			new int[] {0,1}, new int[] {1,0}
 		}));
+		
+		// Day 30
+		KClosestPointToOrigin kClosestPointToOrigin = new KClosestPointToOrigin();
+		
+		// Day 31
+		EditDistance editDistance = new EditDistance();
+		System.out.println(editDistance.minDistance("intention", "execution"));
+		
 	}
 
 	
