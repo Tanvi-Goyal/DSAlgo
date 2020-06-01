@@ -6,7 +6,6 @@ import arrays.SingleNumber;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// Day 1  could not be tested
 		
