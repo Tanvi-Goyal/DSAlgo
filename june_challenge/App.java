@@ -18,6 +18,10 @@ public class App {
 						)
 				)
 			);
+		
+		// Day 2
+		DeleteNode deleteNode = new DeleteNode();
+	
 	}
 
 }
