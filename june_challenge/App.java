@@ -22,6 +22,11 @@ public class App {
 		// Day 2
 		DeleteNode deleteNode = new DeleteNode();
 	
+		// Day 3
+		TwoCityScheduling twoCityScheduling = new TwoCityScheduling();
+		System.out.println(twoCityScheduling.twoCitySchedCost(new int[][] {
+			new int[] {10,20}, new int[] {30,200}, new int[] {400,50}, new int[] {30,20}
+		}));
 	}
 
 }
