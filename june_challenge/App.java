@@ -27,6 +27,10 @@ public class App {
 		System.out.println(twoCityScheduling.twoCitySchedCost(new int[][] {
 			new int[] {10,20}, new int[] {30,200}, new int[] {400,50}, new int[] {30,20}
 		}));
+		
+		// Day 4
+		ReverseString reverseString = new ReverseString();
+		System.out.println(reverseString.reverseString(new char[] {'h','e','l','l','o'}));
 	}
 
 }
