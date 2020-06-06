@@ -31,6 +31,13 @@ public class App {
 		// Day 4
 		ReverseString reverseString = new ReverseString();
 		System.out.println(reverseString.reverseString(new char[] {'h','e','l','l','o'}));
+		
+		// Day 5
+//		 RandomPick obj = new RandomPick(new int[] {"Solution","pickIndex"});
+//		 int param_1 = obj.pickIndex();
+		
+		// June 6
+		QueueReconstruction queueReconstruction = new QueueReconstruction();
 	}
 
 }
