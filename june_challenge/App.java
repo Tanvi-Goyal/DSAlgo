@@ -38,6 +38,10 @@ public class App {
 		
 		// June 6
 		QueueReconstruction queueReconstruction = new QueueReconstruction();
+		
+		// June 7
+		CoinChange coinChange = new CoinChange();
+		System.out.println(coinChange.change(5, new int[] {1,2,5}));
 	}
 
 }
