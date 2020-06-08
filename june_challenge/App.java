@@ -42,6 +42,10 @@ public class App {
 		// June 7
 		CoinChange coinChange = new CoinChange();
 		System.out.println(coinChange.change(5, new int[] {1,2,5}));
+		
+		// June 8
+		PowerOfTwo powerOfTwo = new PowerOfTwo();
+		System.out.println(powerOfTwo.isPowerOfTwo(216));
 	}
 
 }
