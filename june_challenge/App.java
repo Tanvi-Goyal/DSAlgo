@@ -50,6 +50,7 @@ public class App {
 		// June 9
 		isSubsequenceString isSubsequenceString = new isSubsequenceString();
 		System.out.println(isSubsequenceString.isSubsequence("aec", "abcde"));
+		
 	}
 
 }
