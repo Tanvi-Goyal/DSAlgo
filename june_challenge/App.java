@@ -46,6 +46,10 @@ public class App {
 		// June 8
 		PowerOfTwo powerOfTwo = new PowerOfTwo();
 		System.out.println(powerOfTwo.isPowerOfTwo(216));
+		
+		// June 9
+		isSubsequenceString isSubsequenceString = new isSubsequenceString();
+		System.out.println(isSubsequenceString.isSubsequence("aec", "abcde"));
 	}
 
 }
