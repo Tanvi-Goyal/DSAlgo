@@ -51,6 +51,9 @@ public class App {
 		isSubsequenceString isSubsequenceString = new isSubsequenceString();
 		System.out.println(isSubsequenceString.isSubsequence("aec", "abcde"));
 		
+		// June 10
+		SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+		System.out.println(searchInsertPosition.searchInsert(new int[] {1,3,5,6}, 5));
 	}
 
 }
