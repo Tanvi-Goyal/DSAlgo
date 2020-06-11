@@ -54,6 +54,9 @@ public class App {
 		// June 10
 		SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
 		System.out.println(searchInsertPosition.searchInsert(new int[] {1,3,5,6}, 5));
+		
+		// June 11
+		SortColors SortColors = new SortColors();
 	}
 
 }
