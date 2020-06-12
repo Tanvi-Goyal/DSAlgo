@@ -57,6 +57,12 @@ public class App {
 		
 		// June 11
 		SortColors SortColors = new SortColors();
+		
+		// June 12
+		RandomizedSet obj = new RandomizedSet();
+		System.out.println(obj.insert(2));
+		System.out.println(obj.remove(2));
+		System.out.println(obj.getRandom());
 	}
 
 }
