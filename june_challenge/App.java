@@ -63,6 +63,10 @@ public class App {
 		System.out.println(obj.insert(2));
 		System.out.println(obj.remove(2));
 		System.out.println(obj.getRandom());
+		
+		// June 13
+		LargestDivisibleSubset largestDivisibleSubset = new LargestDivisibleSubset();
+		System.out.println(largestDivisibleSubset.largestDivisibleSubset(new int[] {1,2,4,8}));
 	}
 
 }
