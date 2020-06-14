@@ -59,14 +59,20 @@ public class App {
 		SortColors SortColors = new SortColors();
 		
 		// June 12
-		RandomizedSet obj = new RandomizedSet();
-		System.out.println(obj.insert(2));
-		System.out.println(obj.remove(2));
-		System.out.println(obj.getRandom());
-		
+//		RandomizedSet obj = new RandomizedSet();
+//		System.out.println(obj.insert(2));
+//		System.out.println(obj.remove(2));
+//		System.out.println(obj.getRandom());
+//		
 		// June 13
 		LargestDivisibleSubset largestDivisibleSubset = new LargestDivisibleSubset();
 		System.out.println(largestDivisibleSubset.largestDivisibleSubset(new int[] {1,2,4,8}));
+		
+		// June 14
+		CheapestFlightKStops cheapestFlightKStops = new CheapestFlightKStops();
+		System.out.println(cheapestFlightKStops.findCheapestPrice(3, new int[][] {
+			new int[] {0,1,100}, new int[] {1,2,100}, new int[] {0,2,500}
+, 		}, 0, 2, 0));
 	}
 
 }
