@@ -72,7 +72,11 @@ public class App {
 		CheapestFlightKStops cheapestFlightKStops = new CheapestFlightKStops();
 		System.out.println(cheapestFlightKStops.findCheapestPrice(3, new int[][] {
 			new int[] {0,1,100}, new int[] {1,2,100}, new int[] {0,2,500}
-, 		}, 0, 2, 0));
+ 		}, 0, 2, 0));
+		
+		// June 15
+		SearchInBST searchInBST = new SearchInBST();
+		
 	}
 
 }
