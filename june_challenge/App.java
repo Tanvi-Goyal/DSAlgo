@@ -77,6 +77,10 @@ public class App {
 		// June 15
 		SearchInBST searchInBST = new SearchInBST();
 		
+		// June 16
+		ValidateIpAddress validateIpAddress = new ValidateIpAddress();
+		System.out.println(validateIpAddress.validIPAddress("2001:0db8:85a3:0:0:8A2E:0370:7334"));
+		
 	}
 
 }
