@@ -84,6 +84,9 @@ public class App {
 		// June 17
 		SurroundedRegions surroundedRegions = new SurroundedRegions();
 		
+		// June 18
+		HIndexII hIndexII = new HIndexII();
+		System.out.println(hIndexII.hIndex(new int[] {0,1,3,5,6}));
 	}
 
 }
