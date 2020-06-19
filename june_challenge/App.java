@@ -87,6 +87,10 @@ public class App {
 		// June 18
 		HIndexII hIndexII = new HIndexII();
 		System.out.println(hIndexII.hIndex(new int[] {0,1,3,5,6}));
+		
+		// June 19
+		LongestDuplicateSubstring longestDuplicateSubstring = new LongestDuplicateSubstring();
+		System.out.println(longestDuplicateSubstring.longestDupSubstring("banana"));
 	}
 
 }
