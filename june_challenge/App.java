@@ -91,6 +91,10 @@ public class App {
 		// June 19
 		LongestDuplicateSubstring longestDuplicateSubstring = new LongestDuplicateSubstring();
 		System.out.println(longestDuplicateSubstring.longestDupSubstring("banana"));
+		
+		// June 20
+		PermutationSequence permutationSequence = new PermutationSequence();
+		System.out.println(permutationSequence.getPermutation(4, 9));
 	}
 
 }
