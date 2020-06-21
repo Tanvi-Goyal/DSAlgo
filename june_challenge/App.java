@@ -95,6 +95,12 @@ public class App {
 		// June 20
 		PermutationSequence permutationSequence = new PermutationSequence();
 		System.out.println(permutationSequence.getPermutation(4, 9));
+		
+		// June 21
+		DungeonGame dungeonGame = new DungeonGame();
+		System.out.println(dungeonGame.calculateMinimumHP(new int[][] {
+			new int[] {-2,-3,3}, new int[] {-5,-10,1}, new int[] {10,30,-5}
+		}));
 	}
 
 }
