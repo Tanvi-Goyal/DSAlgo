@@ -6,6 +6,9 @@ public class App {
 
 		RomanToInt romanToInt = new RomanToInt();
 		System.out.println(romanToInt.romanToInt("MCMXCIV"));
+		
+		ValidPalindrome validPalindrome = new ValidPalindrome();
+		System.out.println(validPalindrome.isPalindrome("ssadbajbfbafbadjbqwdbqwwqfaw"));
 	}
 
 }
