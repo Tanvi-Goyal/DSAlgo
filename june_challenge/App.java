@@ -101,6 +101,10 @@ public class App {
 		System.out.println(dungeonGame.calculateMinimumHP(new int[][] {
 			new int[] {-2,-3,3}, new int[] {-5,-10,1}, new int[] {10,30,-5}
 		}));
+		
+		// June 22
+		SingleNumII singleNumII = new SingleNumII();
+		System.out.println(singleNumII.singleNumber(new int[] {0,1,0,1,0,1,99}));
 	}
 
 }
