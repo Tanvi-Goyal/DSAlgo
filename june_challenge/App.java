@@ -105,6 +105,19 @@ public class App {
 		// June 22
 		SingleNumII singleNumII = new SingleNumII();
 		System.out.println(singleNumII.singleNumber(new int[] {0,1,0,1,0,1,99}));
+		
+		// June 23
+		CountCompleteTreeNodes CountCompleteTreeNodes = new CountCompleteTreeNodes();
+		System.out.println(CountCompleteTreeNodes.countNodes(new TreeNode(4, 
+				new TreeNode(2,
+						new TreeNode(1),
+						new TreeNode(3)),
+				new TreeNode(7,
+						new TreeNode(6),
+						new TreeNode(9)
+						)
+				)
+		));
 	}
 
 }
