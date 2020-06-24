@@ -9,6 +9,9 @@ public class App {
 		
 		ValidPalindrome validPalindrome = new ValidPalindrome();
 		System.out.println(validPalindrome.isPalindrome("ssadbajbfbafbadjbqwdbqwwqfaw"));
+		
+		CountAndSay countAndSay = new CountAndSay();
+		System.out.println(countAndSay.countAndSay(4));
 	}
 
 }
