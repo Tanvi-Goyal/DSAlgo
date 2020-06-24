@@ -118,6 +118,10 @@ public class App {
 						)
 				)
 		));
+		
+		// June 24
+		UinqueBinarySearchTree uinqueBinarySearchTree = new UinqueBinarySearchTree();
+		System.out.println(uinqueBinarySearchTree.numTrees(3));
 	}
 
 }
