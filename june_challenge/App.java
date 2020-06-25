@@ -122,6 +122,10 @@ public class App {
 		// June 24
 		UinqueBinarySearchTree uinqueBinarySearchTree = new UinqueBinarySearchTree();
 		System.out.println(uinqueBinarySearchTree.numTrees(3));
+		
+		// June 25
+		DuplicateNumber duplicateNumber = new DuplicateNumber();
+		System.out.println(duplicateNumber.findDuplicate(new int[] {1,3,4,2,2}));
 	}
 
 }
