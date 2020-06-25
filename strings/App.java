@@ -15,6 +15,11 @@ public class App {
 		
 		ImplementStr implementStr = new ImplementStr();
 		System.out.println(implementStr.strStr("hello", "ll"));
+		
+		LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+		System.out.println(longestCommonPrefix.longestCommonPrefix(
+				new String[] {"flower","flow","flight"}
+				));
 	}
 
 }
