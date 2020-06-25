@@ -12,6 +12,9 @@ public class App {
 		
 		CountAndSay countAndSay = new CountAndSay();
 		System.out.println(countAndSay.countAndSay(4));
+		
+		ImplementStr implementStr = new ImplementStr();
+		System.out.println(implementStr.strStr("hello", "ll"));
 	}
 
 }
