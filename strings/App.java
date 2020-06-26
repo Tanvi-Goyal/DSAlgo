@@ -23,6 +23,9 @@ public class App {
 		
 		ValidParenthesis validParenthesis = new ValidParenthesis();
 		System.out.println(validParenthesis.isValid("([)]"));
+		
+		LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+		System.out.println(lengthOfLastWord.lengthOfLastWord("aa"));
 	}
 
 }
