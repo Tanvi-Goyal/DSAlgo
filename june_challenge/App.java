@@ -126,6 +126,15 @@ public class App {
 		// June 25
 		DuplicateNumber duplicateNumber = new DuplicateNumber();
 		System.out.println(duplicateNumber.findDuplicate(new int[] {1,3,4,2,2}));
+		
+		// June 26
+		SumRootToLeaf sumRootToLeaf = new SumRootToLeaf();
+		System.out.println(sumRootToLeaf.sumNumbers(
+				new TreeNode(4,
+						new TreeNode(9,
+								new TreeNode(5),
+								new TreeNode(1)),
+						new TreeNode(0))));
 	}
 
 }
