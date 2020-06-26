@@ -20,6 +20,9 @@ public class App {
 		System.out.println(longestCommonPrefix.longestCommonPrefix(
 				new String[] {"flower","flow","flight"}
 				));
+		
+		ValidParenthesis validParenthesis = new ValidParenthesis();
+		System.out.println(validParenthesis.isValid("([)]"));
 	}
 
 }
