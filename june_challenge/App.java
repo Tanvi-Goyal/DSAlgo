@@ -139,7 +139,8 @@ public class App {
 				)
 		);
 		
-		
+		PerfectSquares perfectSquares = new PerfectSquares();
+		System.out.println(perfectSquares.numSquares(12));
 		
 	}
 
