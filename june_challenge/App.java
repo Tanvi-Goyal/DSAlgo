@@ -1,5 +1,8 @@
 package june_challenge;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -139,9 +142,32 @@ public class App {
 				)
 		);
 		
+		// June 27
 		PerfectSquares perfectSquares = new PerfectSquares();
 		System.out.println(perfectSquares.numSquares(12));
 		
+		// June 28
+		
+		List<List<String>> tickets = new ArrayList<List<String>>();
+		tickets.add(new ArrayList<String>() {{
+		    add("MUC");
+		    add("LHR");
+		}});
+		tickets.add(new ArrayList<String>() {{
+		    add("JFK");
+		    add("MUC");
+		}});
+		tickets.add(new ArrayList<String>() {{
+		    add("SFO");
+		    add("SJC");
+		}});
+		tickets.add(new ArrayList<String>() {{
+		    add("LHR");
+		    add("SFO");
+		}});
+
+		Reconstructitineary reconstructitineary = new Reconstructitineary();
+		System.out.println(reconstructitineary.findItinerary(tickets));
 	}
 
 }
