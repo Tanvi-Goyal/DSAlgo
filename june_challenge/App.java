@@ -3,6 +3,8 @@ package june_challenge;
 import java.util.ArrayList;
 import java.util.List;
 
+import arrays.UniquePaths;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -167,6 +169,9 @@ public class App {
 
 		Reconstructitineary reconstructitineary = new Reconstructitineary();
 		System.out.println(reconstructitineary.findItinerary(tickets));
+		
+		UniquePaths uniquePaths = new UniquePaths();
+		System.out.println(uniquePaths.uniquePaths(3, 2));
 	}
 
 }
