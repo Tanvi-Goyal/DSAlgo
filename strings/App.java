@@ -29,6 +29,9 @@ public class App {
 		
 		AddBinary addBinary = new AddBinary();
 		System.out.println(addBinary.addBinary("00110", "100"));
+		
+		ReverseVowels reverseVowels = new ReverseVowels();
+		System.out.println(reverseVowels.reverseVowels("leetcode"));
 	}
 
 }
