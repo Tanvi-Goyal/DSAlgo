@@ -147,7 +147,6 @@ public class App {
 		System.out.println(perfectSquares.numSquares(12));
 		
 		// June 28
-		
 		List<List<String>> tickets = new ArrayList<List<String>>();
 		tickets.add(new ArrayList<String>() {{
 		    add("MUC");

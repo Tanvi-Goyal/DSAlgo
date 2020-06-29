@@ -26,6 +26,9 @@ public class App {
 		
 		LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
 		System.out.println(lengthOfLastWord.lengthOfLastWord("aa"));
+		
+		AddBinary addBinary = new AddBinary();
+		System.out.println(addBinary.addBinary("00110", "100"));
 	}
 
 }
