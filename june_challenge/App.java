@@ -170,8 +170,21 @@ public class App {
 		Reconstructitineary reconstructitineary = new Reconstructitineary();
 		System.out.println(reconstructitineary.findItinerary(tickets));
 		
+		// June 29
 		UniquePaths uniquePaths = new UniquePaths();
 		System.out.println(uniquePaths.uniquePaths(3, 2));
+		
+		// June 30
+		char[][] board = new char[][] {
+			new char[] {'o','a','a','n'},
+			new char[] {'e','t','a','e'},
+			new char[] {'i','h','k','r'},
+			new char[] {'i','f','l','v'}
+		};
+		
+		String[] words = new String[] {"oath","pea","eat","rain"};
+		WordSearchII wordSearchII = new WordSearchII();
+		System.out.println(wordSearchII.findWords(board, words));
 	}
 
 }
