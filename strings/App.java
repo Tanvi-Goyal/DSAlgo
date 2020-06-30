@@ -32,6 +32,9 @@ public class App {
 		
 		ReverseVowels reverseVowels = new ReverseVowels();
 		System.out.println(reverseVowels.reverseVowels("leetcode"));
+		
+		AddStrings addStrings = new AddStrings();
+		System.out.println(addStrings.addStrings("123", "34"));
 	}
 
 }
