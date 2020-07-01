@@ -35,6 +35,9 @@ public class App {
 		
 		AddStrings addStrings = new AddStrings();
 		System.out.println(addStrings.addStrings("123", "34"));
+		
+		StringSegments stringSegments = new StringSegments();
+		System.out.println(stringSegments.countSegments("Hello, my name is John"));
 	}
 
 }
