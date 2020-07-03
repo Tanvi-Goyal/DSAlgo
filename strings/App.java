@@ -42,6 +42,9 @@ public class App {
 		StringCompression stringCompression = new StringCompression();
 		System.out.println(stringCompression.compress(new char[] {'a', 'a', 'b', 'b', 'c', 'c', 'c'}));
 		System.out.println(stringCompression.compress(new char[] {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'b'}));
+		
+		RepeatedSubstringPattern RepeatedSubstringPattern = new RepeatedSubstringPattern();
+		System.out.println(RepeatedSubstringPattern.repeatedSubstringPattern("abcabcabcabc"));
 	}
 
 }
