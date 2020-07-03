@@ -38,6 +38,10 @@ public class App {
 		
 		StringSegments stringSegments = new StringSegments();
 		System.out.println(stringSegments.countSegments("Hello, my name is John"));
+		
+		StringCompression stringCompression = new StringCompression();
+		System.out.println(stringCompression.compress(new char[] {'a', 'a', 'b', 'b', 'c', 'c', 'c'}));
+		System.out.println(stringCompression.compress(new char[] {'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'b'}));
 	}
 
 }

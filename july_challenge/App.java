@@ -18,7 +18,9 @@ public class App {
 								new TreeNode(15),
 								new TreeNode(7)
 								)
-						)));
+						)
+				)
+		);
 	}
 
 }
