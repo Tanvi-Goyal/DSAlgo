@@ -45,6 +45,9 @@ public class App {
 		
 		RepeatedSubstringPattern RepeatedSubstringPattern = new RepeatedSubstringPattern();
 		System.out.println(RepeatedSubstringPattern.repeatedSubstringPattern("abcabcabcabc"));
+		
+		DetectCapital DetectCapital = new DetectCapital();
+		System.out.println(DetectCapital.detectCapitalUse("Flag"));
 	}
 
 }
