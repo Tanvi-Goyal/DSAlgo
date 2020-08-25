@@ -1,5 +1,8 @@
 package arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -235,6 +238,29 @@ public class App {
 		System.out.println(minPathSum.minPathSum(new int[][] {
 			new int[] {1,3,1}, new int[] {1,5,1}, new int[] {4,2,1}
 		}));
+		
+		
+		List<List<Integer>> queries = new ArrayList<List<Integer>>();
+		
+		queries.add(new ArrayList<Integer>() {{
+		    add(1); add(0); add(5);
+		}});
+		
+		queries.add(new ArrayList<Integer>() {{
+		    add(1); add(1); add(7);
+		}});
+		queries.add(new ArrayList<Integer>() {{
+		    add(1); add(0); add(3);
+		}});
+		queries.add(new ArrayList<Integer>() {{
+		    add(2); add(1); add(0);
+		}});
+		queries.add(new ArrayList<Integer>() {{
+		    add(2); add(1); add(1);
+		}});
+		
+		DynamicArray da = new DynamicArray();
+		System.out.println(da.dynamicArray(2, queries));
 	}
 
 }
